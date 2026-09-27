@@ -1,3 +1,4 @@
+![Terraform CI/CD Pipeline](https://github.com/achh-914/aws-3tier-vpc-terraform/actions/workflows/terraform.yml/badge.svg)
 # AWS 3-Tier Production VPC Architecture with Terraform
 
 ![Architecture Diagram](architecture-diagram.png)
