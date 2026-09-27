@@ -96,8 +96,8 @@ resource "aws_autoscaling_group" "app_asg" {
   target_group_arns   = [aws_lb_target_group.alb_target_group.arn]
   vpc_zone_identifier = [aws_subnet.app_1.id, aws_subnet.app_2.id]
 
-  min_size     = 2
-  max_size     = 5
+  min_size         = 2
+  max_size         = 5
   desired_capacity = 2
 
   launch_template {
